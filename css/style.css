@@ -1,0 +1,215 @@
+body {
+
+	margin: 0;
+	padding:0;
+	background: rgb(234,234,234);
+
+}
+
+h1,h2,h3,h4,h5,h6,p,a,li {
+
+	font-family: "Raleway";
+	font-weight: 100;
+	font-style: normal;
+}
+
+img {
+
+	width: 100%;
+
+}
+
+p {
+
+	font-size: 25px;
+
+}
+
+h3 {
+
+	text-transform: uppercase;
+	font-size: 34px;
+
+}
+
+.wrapper,footer,nav {
+
+	min-width: 1080px;
+	overflow: hidden;
+	margin: auto;
+	width: 83.8%;
+	background: white;
+
+}
+
+nav {
+
+	margin:0;
+	padding: 0;
+	position: fixed;
+	border-bottom: 1px solid gray;
+	background: white;
+	text-transform: uppercase;
+
+}
+
+h6 {
+
+	font-size: 27px;
+	margin: 0px;
+
+}
+
+nav h3 {
+	
+	margin:0;
+	padding: 20px;
+	float: left;
+	font-size: 27px;
+	font-weight: 700 !important;
+
+}
+
+nav ul li {
+
+	float: left;
+	list-style: none;
+	font-size: 20px;
+	margin:0;
+
+}
+
+nav ul li a {
+
+	text-decoration: none;
+	color: black;
+	padding:24px;
+	padding-right: 28px;
+	padding-left: 28px;
+	display: inline-block;
+
+}
+
+nav ul li a:hover {
+
+	transition: linear 0.33s;
+	background-color: rgb(192,192,192);
+
+}
+
+nav ul li:first-child {
+
+	padding-left: 60px;
+
+}
+
+nav ul {
+
+	margin: 0;
+
+}
+
+header h1 {
+
+	margin: 0;
+	padding:35px;
+	margin-top: 75px;
+	text-align: center;
+	font-size: 60px;
+	text-transform: uppercase;
+
+}
+
+.offset {
+
+	top: -77px;
+	position: relative;
+	width: 1px;
+	height: 1px;
+	background: red;
+	opacity: 0;
+
+}
+
+.ingredienten {
+
+	float: left;
+	width: 25%;
+
+}
+
+.berijdingswijze h3,
+.ingredienten h3 {
+
+	margin-top: 25px;
+
+}
+
+.padding {
+
+	margin: 13%;
+	margin-top: 0;
+	border-bottom: 1px solid black;
+
+}
+
+.berijdingswijze {
+
+	float: right;
+	width: 75%;
+
+}
+
+.berijdingswijze li {
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 35px;
+
+}
+
+.berijdingswijze li p {
+
+	border-left: 1px solid black;
+	padding-left: 25px;
+	margin-left: 15px;
+	padding-right: 40px;
+
+}
+
+.berijdingswijze h6 {
+
+	font-size: 30px;
+
+}
+
+.berijdingswijze ol {
+
+	margin-bottom: 60px;
+
+}
+
+footer {
+
+	border-top: 1px solid black;
+
+}
+
+footer p {
+
+	padding-left: 40px;
+
+}
+
+.footnote p,.footnote h6 {
+
+	margin-right: 5%;
+
+}
+
+.footnote {
+
+	padding-bottom: 60px;
+	padding-top: 50px;
+
+}
